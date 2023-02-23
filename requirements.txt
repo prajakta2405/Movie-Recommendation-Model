@@ -1,0 +1,4 @@
+art==5.8
+Flask==2.2.2
+pandas==1.5.2
+scikit_learn==1.2.1
