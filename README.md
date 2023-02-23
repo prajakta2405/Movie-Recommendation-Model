@@ -18,6 +18,25 @@ pip install -r /path/to/requirements.txt
 ```
 
 3. Now run the python program. If you are running the web app , after executing the script, visit "[127.0.0.1](http://127.0.0.1:5000/)" to view the program.
+4. When modifying, the directory structure is as follows
+
+   ```python
+   Movie-Recommendation-Model/
+   ├── static/
+   │   ├── css/
+   │   │   └── style.css /*Css Styles*/
+   │   ├── js/
+   │   │   └── script.js /*Js Script*/
+   │   ├── img/
+   │   │   └── image.png /*If Any present*/
+   │   └── favicon.ico
+   ├── templates/
+   │   └── index.html
+   ├── web_app.py
+   ├── movie_dataset.csv
+   ├── .gitignore
+   └── requirements.txt
+   ```
 
 ## Contributing
 
