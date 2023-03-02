@@ -22,6 +22,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 import pandas as pd
 import art
+from ast import literal_eval
 
 
 #Reading The Dataset
